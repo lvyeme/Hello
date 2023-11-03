@@ -21,5 +21,8 @@
     <ClCompile Include="有序数组的平方.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="有序数组的平方[双指针法].cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
