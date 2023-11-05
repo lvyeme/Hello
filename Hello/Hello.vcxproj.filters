@@ -27,5 +27,8 @@
     <ClCompile Include="滑动窗口.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="设计链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 #include<iostream>
-using namespace std;
 #include<vector>
 #include<climits> // ÓÃÓÚ INT_MAX
-#include<algorithm>
+
+using namespace std;
 
 class Solution {
 public:
