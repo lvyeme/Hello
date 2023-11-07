@@ -30,5 +30,11 @@
     <ClCompile Include="设计链表.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="翻转链表[双指针].cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="翻转链表[递归].cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
