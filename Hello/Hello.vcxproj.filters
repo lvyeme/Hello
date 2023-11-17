@@ -66,5 +66,8 @@
     <ClCompile Include="[字符串]反转字符串.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="[字符串]反转字符串Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
