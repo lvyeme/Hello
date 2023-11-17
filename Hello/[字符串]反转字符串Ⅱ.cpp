@@ -14,7 +14,7 @@ public:
 		{
 			if (i + k < s.size()) {
 			
-				reverse(s.begin() + i, s.begin() + i + k);
+				reverse(s.begin() , s.begin() + i + k);
 			}
 			else
 			{
@@ -25,3 +25,17 @@ public:
 		return s;
 	}
 };
+
+int main() {
+
+	Solution solu;
+	string str = "abcdefg";
+	int k = 2;
+
+	string reversedStr = solu.reverseStr(str, k);
+
+	cout << "原字符串" << str << endl;
+	cout << "反转后字符串" << reversedStr << endl;
+
+	return 0;
+}

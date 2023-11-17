@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\123">
+      <UniqueIdentifier>{1a81c97f-ced1-43f4-b45e-6f6b64aae215}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hello.cpp">
@@ -67,6 +70,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="[字符串]反转字符串Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="翻转字符串里的单词.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
