@@ -2,11 +2,33 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    int number = 10;
+    int* ptr = &number; // 获取变量 number 的地址并存储在指针 ptr 中
+
+    string sa = "hello";
+
+    string s = "hello";
+    string* s1 = &s;
+
+    string ss = "hello";
+    string* ss1 = &ss;
+
+    s = sa + "world";
+    ss = sa + "world";
+    std::cout << "添加字符串之后是否相等（字符串本身）:" << (s == ss) << std::endl;
+
+    std::cout << "变量 number 的地址是：" << ptr << std::endl;
+    std::cout << "变量 s 的地址是：" << s1 << std::endl;
+    std::cout << "变量 ss 的地址是：" << ss1 << std::endl;
+    std::cout << "是否相等:" << (*s1 == *ss1) << std::endl;
+
+    return 0;
 }
+
+
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
