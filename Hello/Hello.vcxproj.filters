@@ -72,7 +72,7 @@
     <ClCompile Include="[字符串]反转字符串Ⅱ.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="翻转字符串里的单词.cpp">
+    <ClCompile Include="[字符串]翻转字符串里的单词.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="[栈与队列]基本操作.cpp">
