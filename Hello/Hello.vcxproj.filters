@@ -78,5 +78,8 @@
     <ClCompile Include="[栈与队列]基本操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="[数组]移除元素.cpp">
+      <Filter>源文件\123</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

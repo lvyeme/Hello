@@ -151,7 +151,10 @@
     <ClCompile Include="[字符串]反转字符串Ⅱ.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="[栈与队列]基本操作.cpp" />
+    <ClCompile Include="[数组]移除元素.cpp" />
+    <ClCompile Include="[栈与队列]基本操作.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="[链表]两两交换链表中的节点.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
