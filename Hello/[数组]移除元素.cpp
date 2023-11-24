@@ -21,22 +21,26 @@ public:
 };
 
 int main() {
-    Solution solu;
-    vector<int> nums = { 1, 6, 3, 4, 2, 5 };
-    int val = 2;
-    int newSize = solu.removeElement(nums, val);
+	Solution solu;
+	vector<int> nums = { 1,6,3,4,2,5 };
+	int val = 2;
+	int newSize = solu.removeElement(nums,val);
 
-    cout << "旧数组元素：";
-    for (int i = 0; i < nums.size(); i++) {
-        cout << nums[i] << " ";
-    }
-    cout << endl;
+	//old数组输出异常
+	//cout << "旧数组元素：";
+	//for (int i = 0; i < nums.size(); i++)
+	//{
+	//	cout << nums[i] << " ";
+	//}
+	//cout << endl;
 
-    cout << "新数组元素：";
-    for (int i = 0; i < newSize; i++) {
-        cout << nums[i] << " ";
-    }
-    cout << endl;
 
-    return 0;
+	cout << "新数组元素：";
+	for (int i = 0; i < newSize; i++)
+	{
+		cout << nums[i] << " ";
+	}
+	cout << endl;
+
+	return 0;
 }
