@@ -19,66 +19,24 @@
     <Filter Include="源文件\二叉树">
       <UniqueIdentifier>{e7f061ba-5d68-46e4-8516-00ea0e77a3d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\二叉树\遍历方法">
+      <UniqueIdentifier>{c7a0d093-27e5-4284-b586-02ac4e98cb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\哈希表">
+      <UniqueIdentifier>{cfeb7e1d-1951-4743-83a3-9ad476873011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\链表">
+      <UniqueIdentifier>{23fbae52-2791-463a-be6e-45cbd6fc5bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数组">
+      <UniqueIdentifier>{d9fc6cc8-9871-4d77-a652-445b7509b0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\字符串">
+      <UniqueIdentifier>{b069b832-63d1-4390-9b5c-b90f5b8ea701}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hello.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[数组]有序数组的平方.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[数组]有序数组的平方[双指针法].cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[数组]滑动窗口.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[链表]设计链表.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[链表]翻转链表[双指针].cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[链表]翻转链表[递归].cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[链表]两两交换链表中的节点.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[链表]环形链表.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[链表]删除链表中第倒数N个节点.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[哈希表]有效的字母异位词.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[哈希表]两个数组的交集.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[哈希表]两数之和.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[哈希表]四数相加.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[哈希表]三数之和.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[哈希表]四数之和.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[字符串]反转字符串.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[字符串]反转字符串Ⅱ.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[字符串]翻转字符串里的单词.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="[数组]移除元素.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="[栈与队列]基本操作.cpp">
@@ -88,7 +46,64 @@
       <Filter>源文件\栈与队列</Filter>
     </ClCompile>
     <ClCompile Include="递归前序遍历.cpp">
-      <Filter>源文件\二叉树</Filter>
+      <Filter>源文件\二叉树\遍历方法</Filter>
+    </ClCompile>
+    <ClCompile Include="[哈希表]两个数组的交集.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="[哈希表]两数之和.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="[哈希表]三数之和.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="[哈希表]四数相加.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="[哈希表]四数之和.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="[哈希表]有效的字母异位词.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="[链表]翻转链表[递归].cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="[链表]翻转链表[双指针].cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="[链表]环形链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="[链表]两两交换链表中的节点.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="[链表]删除链表中第倒数N个节点.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="[链表]设计链表.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="[数组]滑动窗口.cpp">
+      <Filter>源文件\数组</Filter>
+    </ClCompile>
+    <ClCompile Include="[数组]移除元素.cpp">
+      <Filter>源文件\数组</Filter>
+    </ClCompile>
+    <ClCompile Include="[数组]有序数组的平方.cpp">
+      <Filter>源文件\数组</Filter>
+    </ClCompile>
+    <ClCompile Include="[数组]有序数组的平方[双指针法].cpp">
+      <Filter>源文件\数组</Filter>
+    </ClCompile>
+    <ClCompile Include="[字符串]翻转字符串里的单词.cpp">
+      <Filter>源文件\字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="[字符串]反转字符串.cpp">
+      <Filter>源文件\字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="[字符串]反转字符串Ⅱ.cpp">
+      <Filter>源文件\字符串</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
