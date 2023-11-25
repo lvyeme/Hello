@@ -16,6 +16,9 @@
     <Filter Include="源文件\栈与队列">
       <UniqueIdentifier>{1a81c97f-ced1-43f4-b45e-6f6b64aae215}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\二叉树">
+      <UniqueIdentifier>{e7f061ba-5d68-46e4-8516-00ea0e77a3d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hello.cpp">
@@ -83,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="用队列实现栈.cpp">
       <Filter>源文件\栈与队列</Filter>
+    </ClCompile>
+    <ClCompile Include="递归前序遍历.cpp">
+      <Filter>源文件\二叉树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
