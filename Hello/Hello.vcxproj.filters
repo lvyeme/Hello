@@ -34,6 +34,9 @@
     <Filter Include="源文件\字符串">
       <UniqueIdentifier>{b069b832-63d1-4390-9b5c-b90f5b8ea701}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\二叉树\遍历方法\递归法">
+      <UniqueIdentifier>{911c267e-c49e-4128-a71a-6cd51a3f828e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hello.cpp">
@@ -44,9 +47,6 @@
     </ClCompile>
     <ClCompile Include="用队列实现栈.cpp">
       <Filter>源文件\栈与队列</Filter>
-    </ClCompile>
-    <ClCompile Include="递归前序遍历.cpp">
-      <Filter>源文件\二叉树\遍历方法</Filter>
     </ClCompile>
     <ClCompile Include="[哈希表]两个数组的交集.cpp">
       <Filter>源文件\哈希表</Filter>
@@ -105,11 +105,14 @@
     <ClCompile Include="[字符串]反转字符串Ⅱ.cpp">
       <Filter>源文件\字符串</Filter>
     </ClCompile>
-    <ClCompile Include="递归中序遍历.cpp">
-      <Filter>源文件\二叉树\遍历方法</Filter>
-    </ClCompile>
     <ClCompile Include="递归后序遍历.cpp">
-      <Filter>源文件\二叉树\遍历方法</Filter>
+      <Filter>源文件\二叉树\遍历方法\递归法</Filter>
+    </ClCompile>
+    <ClCompile Include="递归前序遍历.cpp">
+      <Filter>源文件\二叉树\遍历方法\递归法</Filter>
+    </ClCompile>
+    <ClCompile Include="递归中序遍历.cpp">
+      <Filter>源文件\二叉树\遍历方法\递归法</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
