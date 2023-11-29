@@ -37,7 +37,7 @@
     <Filter Include="源文件\二叉树\遍历方法\递归法">
       <UniqueIdentifier>{911c267e-c49e-4128-a71a-6cd51a3f828e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\二叉树\遍历方法\NewFilter1">
+    <Filter Include="源文件\二叉树\遍历方法\迭代法">
       <UniqueIdentifier>{20713eb6-c290-4124-8300-708fa30d5bc1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -119,6 +119,15 @@
     </ClCompile>
     <ClCompile Include="有效括号.cpp">
       <Filter>源文件\栈与队列</Filter>
+    </ClCompile>
+    <ClCompile Include="前序.cpp">
+      <Filter>源文件\二叉树\遍历方法\迭代法</Filter>
+    </ClCompile>
+    <ClCompile Include="中序.cpp">
+      <Filter>源文件\二叉树\遍历方法\迭代法</Filter>
+    </ClCompile>
+    <ClCompile Include="后序.cpp">
+      <Filter>源文件\二叉树\遍历方法\迭代法</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
