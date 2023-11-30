@@ -18,17 +18,17 @@ public:
 	
 		stack<TreeNode*> st;
 		vector<int> result;
-		TreeNode* cur = root;
+		//TreeNode* cur = root;
 
-		if (root == NULL)return result;
-		st.push(root);
-		while (!st.empty())
+		if (root == NULL)return result;//如果树为空直接返回
+		st.push(root);//把根节点放入栈
+		while (!st.empty())//直至栈为空
 		{
-			TreeNode* node = st.top();
-			st.pop();
-			result.push_back(node->val);
-			if (node->right)st.push(node->right);
-			if (node->left)st.push(node->left);
+			TreeNode* node = st.top(); //从栈中取出顶节点元素
+			st.pop();//弹出节点
+			result.push_back(node->val);//放入要输出的数组中
+			if (node->right)st.push(node->right);//放入右节点
+			if (node->left)st.push(node->left);//再放入左节点
 		}
 		return result;
 	}

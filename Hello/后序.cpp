@@ -18,7 +18,6 @@ public:
 
 		stack<TreeNode*> st;
 		vector<int> result;
-		TreeNode* cur = root;
 
 		if (root == NULL) return result;
 		st.push(root);
