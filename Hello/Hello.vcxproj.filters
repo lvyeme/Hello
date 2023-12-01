@@ -129,5 +129,11 @@
     <ClCompile Include="后序.cpp">
       <Filter>源文件\二叉树\遍历方法\迭代法</Filter>
     </ClCompile>
+    <ClCompile Include="层序遍历[广度优先搜索].cpp">
+      <Filter>源文件\二叉树\遍历方法</Filter>
+    </ClCompile>
+    <ClCompile Include="翻转二叉树.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
