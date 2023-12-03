@@ -14,7 +14,7 @@ struct TreeNode {
 class Solution {
 
 public:
-	//µÝ¹éÖ÷º¯Êý
+	//¸¨Öúº¯Êý
 	TreeNode* invertTree(TreeNode* root) {
 	
 		if (root == NULL) return root;

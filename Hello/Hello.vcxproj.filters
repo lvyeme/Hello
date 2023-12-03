@@ -135,5 +135,8 @@
     <ClCompile Include="翻转二叉树.cpp">
       <Filter>源文件\二叉树</Filter>
     </ClCompile>
+    <ClCompile Include="翻转二叉树中序遍历.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
