@@ -40,6 +40,9 @@
     <Filter Include="源文件\二叉树\遍历方法\迭代法">
       <UniqueIdentifier>{20713eb6-c290-4124-8300-708fa30d5bc1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\二叉树\翻转二叉树">
+      <UniqueIdentifier>{197c7bae-180f-452c-aaa9-5193e96f2f9b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hello.cpp">
@@ -132,11 +135,14 @@
     <ClCompile Include="层序遍历[广度优先搜索].cpp">
       <Filter>源文件\二叉树\遍历方法</Filter>
     </ClCompile>
-    <ClCompile Include="翻转二叉树.cpp">
-      <Filter>源文件\二叉树</Filter>
+    <ClCompile Include="[递归前后序]翻转二叉树.cpp">
+      <Filter>源文件\二叉树\翻转二叉树</Filter>
     </ClCompile>
-    <ClCompile Include="翻转二叉树中序遍历.cpp">
-      <Filter>源文件\二叉树</Filter>
+    <ClCompile Include="[递归中序]翻转二叉树.cpp">
+      <Filter>源文件\二叉树\翻转二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="迭代法.cpp">
+      <Filter>源文件\二叉树\翻转二叉树</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

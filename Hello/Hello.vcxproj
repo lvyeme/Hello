@@ -205,8 +205,11 @@
     <ClCompile Include="有效括号.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="翻转二叉树.cpp" />
-    <ClCompile Include="翻转二叉树中序遍历.cpp" />
+    <ClCompile Include="[递归前后序]翻转二叉树.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="[递归中序]翻转二叉树.cpp" />
+    <ClCompile Include="迭代法.cpp" />
     <ClCompile Include="递归中序遍历.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

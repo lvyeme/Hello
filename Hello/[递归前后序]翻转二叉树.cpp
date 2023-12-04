@@ -14,14 +14,24 @@ struct TreeNode {
 class Solution {
 
 public:
+	//前序遍历
 	//辅助函数
-	TreeNode* invertTree(TreeNode* root) {
+	TreeNode* invertTree(TreeNode* root) {//返回节点
 	
 		if (root == NULL) return root;
 		swap(root->left, root->right);//中
 		invertTree(root->left);//左
 		invertTree(root->right);//右
 		return root;
+	}
+	//后序遍历
+	TreeNode* invertTreeback(TreeNode* node) {//定义返回节点
+	
+		if (node == NULL) return node;
+		invertTreeback(node->left);
+		invertTreeback(node->right);
+		swap(node->left,  node->right);
+		return node;
 	}
 
 	void printTree(TreeNode* root) {
