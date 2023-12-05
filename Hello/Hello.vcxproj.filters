@@ -144,5 +144,8 @@
     <ClCompile Include="迭代法.cpp">
       <Filter>源文件\二叉树\翻转二叉树</Filter>
     </ClCompile>
+    <ClCompile Include="对称二叉树.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
