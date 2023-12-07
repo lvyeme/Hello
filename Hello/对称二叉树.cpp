@@ -14,6 +14,7 @@ struct TreeNode {
 class Solution {
 
 public:
+	//递归
 	bool compare(TreeNode* left, TreeNode* right) {
 	//首先排除空节点的情况
 		if (left == NULL && right != NULL)return false;
@@ -28,6 +29,7 @@ public:
 		bool isSame = outside && inside;
 		return isSame;
 	}
+
 	bool isSymmetric(TreeNode* root) {
 	
 		if (root == NULL)
@@ -35,6 +37,7 @@ public:
 			return true;
 		}return compare(root->left, root->right);
 	}
+	//打印树的数值函数
 	void printTree(TreeNode* root) {
 		if (root == NULL) return;
 		queue<TreeNode*> que;
