@@ -14,20 +14,26 @@ struct TreeNode {
 class Solution {
 
 public:
-	//
-	int getdepth(TreeNode* node) {
+	int getDpth(TreeNode* node) {
 	
 		if (node == NULL) return 0;
-		int leftdepth = getdepth(node->left);//左
-		int rigthdepth = getdepth(node->right);//右
-		int depth = 1 + max(leftdepth, rigthdepth);//中
-		return depth;
-		//精简后的代码
-		//return 1 + max(maxDepth(node->left), maxDepth(node->right));
+		int leftDepth = getDpth(node->left);
+		int rightDepth = getDpth(node->right);
+		if (leftDepth != NULL && rightDepth == NULL)
+		{
+			return 1 + leftDepth;
+		}
+		if (leftDepth == NULL && rightDepth != NULL)
+		{
+			return 1 + rightDepth;
+		}
+		int result = 1 + min(leftDepth, rightDepth);
+		return result;
 	}
-	int maxDepth(TreeNode* root) {
-	
-		return getdepth(root);
+
+	int minDepth(TreeNode* root) {
+
+		return getDpth(root);
 	}
 };
 
@@ -41,9 +47,10 @@ int main() {
 	root->right->left = new TreeNode(15);
 	root->right->right = new TreeNode(7);
 
-	// 计算树的最大深度
-	int maxDepth = solu.maxDepth(root);
-	cout << "二叉树的最大深度为：" << maxDepth << endl;
+	// 计算树的最小深度
+	int minDepth = solu.minDepth(root);
+	cout << "二叉树的最小深度为：" << minDepth << endl;
 
 	return 0;
 }
+
