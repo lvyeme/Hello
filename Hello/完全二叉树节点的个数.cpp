@@ -39,7 +39,7 @@ public:
 		int rightNum = contNodes(node->right);//ÓÒ
 		int result = leftNum + rightNum + 1;//ÖĞ
 
-
+		//return contNodes(node->left) + contNodes(node->right) + 1;
 		return result;
 	}
 };
