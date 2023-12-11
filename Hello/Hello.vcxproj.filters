@@ -159,5 +159,8 @@
     <ClCompile Include="平衡二叉树.cpp">
       <Filter>源文件\二叉树</Filter>
     </ClCompile>
+    <ClCompile Include="二叉树的所有路径.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
