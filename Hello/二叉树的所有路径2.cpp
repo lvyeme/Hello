@@ -30,11 +30,13 @@ private:
 			result.push_back(sPath);
 			return;
 		}
+		//×ó
 		if (node->left)
 		{
 			trevsal(node->left, path, result);
 			path.pop_back();//»ØËÝ
 		}
+		//ÓÒ
 		if (node->right)
 		{
 			trevsal(node->right, path, result);
