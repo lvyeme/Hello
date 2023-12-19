@@ -177,5 +177,8 @@
     <ClCompile Include="找二叉树左下角的值[递归].cpp">
       <Filter>源文件\二叉树</Filter>
     </ClCompile>
+    <ClCompile Include="checkIsSingleStatus.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
