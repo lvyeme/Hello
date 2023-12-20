@@ -178,7 +178,10 @@
       <Filter>源文件\二叉树</Filter>
     </ClCompile>
     <ClCompile Include="checkIsSingleStatus.cpp">
-      <Filter>源文件\二叉树</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="删除字符串中所有相邻重复项.cpp">
+      <Filter>源文件\栈与队列</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
