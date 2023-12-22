@@ -186,5 +186,8 @@
     <ClCompile Include="从中序与后序遍历序列构造二叉树.cpp">
       <Filter>源文件\二叉树</Filter>
     </ClCompile>
+    <ClCompile Include="逆波兰表达式.cpp">
+      <Filter>源文件\栈与队列</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
