@@ -189,5 +189,8 @@
     <ClCompile Include="逆波兰表达式.cpp">
       <Filter>源文件\栈与队列</Filter>
     </ClCompile>
+    <ClCompile Include="最大二叉树.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
