@@ -192,8 +192,8 @@
     <ClCompile Include="最大二叉树.cpp">
       <Filter>源文件\二叉树</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件\二叉树</Filter>
+    <ClCompile Include="右旋字符串.cpp">
+      <Filter>源文件\字符串</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
