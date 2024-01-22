@@ -195,5 +195,8 @@
     <ClCompile Include="右旋字符串.cpp">
       <Filter>源文件\字符串</Filter>
     </ClCompile>
+    <ClCompile Include="合并二叉树.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
