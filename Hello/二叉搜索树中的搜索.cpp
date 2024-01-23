@@ -20,7 +20,18 @@ public:
 		if (root->val < val)result = search(root->right, val);
 		return result;
 	}
+
+    TreeNode* searshBST(TreeNode* root, int val) {
+        while (root != NULL)
+        {
+            if (root->val > val)root = root->left;
+            else if (root->val < val)root = root->right;
+            else return root;
+        }
+        return NULL;
+    }
 };
+
 int main() {
     // 创建一颗二叉搜索树
     TreeNode* root = new TreeNode(5);
@@ -37,7 +48,7 @@ int main() {
     // 调用 search 方法查找节点值为 3 的节点
     int targetValue = 4;
     TreeNode* resultNode = solution.search(root, targetValue);
-
+    TreeNode* result = solution.searshBST(root, targetValue);
     // 输出结果
     if (resultNode != NULL) {
         cout << "找到节点值为 " << targetValue << " 的节点" << endl;
@@ -46,5 +57,12 @@ int main() {
         cout << "未找到节点值为 " << targetValue << " 的节点" << endl;
     }
 
+    // 输出结果
+    if (result != NULL) {
+        cout << "找到节点值为 " << targetValue << " 的节点" << endl;
+    }
+    else {
+        cout << "未找到节点值为 " << targetValue << " 的节点" << endl;
+    }
     return 0;
 }
