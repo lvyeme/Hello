@@ -12,6 +12,7 @@ struct TreeNode
 
 class Solution {
 public:
+    //µÝ¹é
 	TreeNode* search(TreeNode* root, int val) {
 	
 		if (root == NULL || root->val == val) return root;
@@ -20,7 +21,7 @@ public:
 		if (root->val < val)result = search(root->right, val);
 		return result;
 	}
-
+    //µü´ú
     TreeNode* searshBST(TreeNode* root, int val) {
         while (root != NULL)
         {
