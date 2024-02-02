@@ -204,5 +204,8 @@
     <ClCompile Include="验证二叉搜索树.cpp">
       <Filter>源文件\二叉树</Filter>
     </ClCompile>
+    <ClCompile Include="二叉搜索树的最小绝对差.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
