@@ -31,3 +31,23 @@ public:
 		return sum;
 	}
 };
+
+int main() {
+	// 创建一颗二叉树
+	TreeNode* root = new TreeNode(3);
+	root->left = new TreeNode(9);
+	root->right = new TreeNode(20);
+	root->right->left = new TreeNode(15);
+	root->right->right = new TreeNode(7);
+
+	// 创建 Solution 对象
+	Solution solution;
+
+	// 调用 sumOfLeftLeaves 方法计算左叶子节点的和
+	int result = solution.sunOfLeftLeaves(root);
+
+	// 输出结果
+	cout << "左叶子节点的和为: " << result << endl;
+
+	return 0;
+}
