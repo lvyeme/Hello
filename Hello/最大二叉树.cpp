@@ -44,5 +44,19 @@ public:
 
 };
 
+int main() {
+	// 创建一个测试用例
+	vector<int> nums = { 3, 2, 1, 6, 0, 5 };
 
+	// 创建 Solution 对象
+	Solution solution;
+
+	// 构建最大二叉树
+	TreeNode* root = solution.constructMaximumBinaryTree(nums);
+
+	// 输出结果
+	cout << "构建的最大二叉树的根节点值为：" << root->val << endl;
+
+	return 0;
+}
 
