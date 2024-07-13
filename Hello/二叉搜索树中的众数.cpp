@@ -36,6 +36,13 @@ public:
 		searchBST(root, map);
 		vector<pair<int, int>>vec(map.begin(), map.end());
 		sort(vec.begin(), vec.end(), cmp);//给频率排序
-		result.push_back(vec])
+		result.push_back(vec[0].first);
+		for (int i = 0; i < vec.size(); i++)
+		{
+			//取最高的放到result数组中
+			if (vec[i].second == vec[0].second)result.push_back(vec[i].first);
+			else break;
+		}
+		return result;
 	}
 };

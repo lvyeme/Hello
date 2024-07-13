@@ -43,6 +43,9 @@
     <Filter Include="源文件\二叉树\翻转二叉树">
       <UniqueIdentifier>{197c7bae-180f-452c-aaa9-5193e96f2f9b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Test">
+      <UniqueIdentifier>{aa43a6a2-b323-46ab-855a-273e83df7840}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hello.cpp">
@@ -209,6 +212,9 @@
     </ClCompile>
     <ClCompile Include="二叉搜索树中的众数.cpp">
       <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="长度最小的子数组.cpp">
+      <Filter>源文件\数组</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
